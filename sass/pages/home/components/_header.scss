@@ -1,0 +1,94 @@
+.header{
+	height: 100vh;
+	background-size: cover;
+	position: relative;
+}
+
+.logo-box{
+	position: absolute;
+	top: 42.5%;
+	left: 50%;
+  transform: translate(-50%, -50%);
+  animation: logo .89s;
+	
+	&__img{
+		width: 100%;
+	}
+	
+	& img{
+		transform: scale(1.09);
+	}
+}
+
+.right-box{
+	position: absolute;
+	right: 0;
+	top: 25%;
+	z-index: -1;
+	animation: come-in-right .9s; 
+	&__join,
+	&__rate{
+		border-top-left-radius: .9rem;
+		border-bottom-left-radius: .9rem; 
+		display: block;
+		margin-bottom: .5rem;
+		&--txt{
+			padding: 1.2rem 2rem;
+			font-size: 2.2rem;
+			text-align: right;
+			text-transform: uppercase;
+		}
+	}
+
+	&__join{
+		animation-duration: .89s;
+		width: 90%;
+		background-color: $color-yellow;
+		margin-left: 2rem;
+	}	
+
+	&__rate{
+		color: $color-white;
+		background-color: $color-red;
+	}
+}
+
+.icon__container{
+	position: absolute;
+	bottom: 3.5rem;
+	width: 15%;
+	display: flex;
+	justify-content: space-evenly;	
+
+	&--icon{
+		height: 8rem;
+		width: 8rem;
+		text-align: center;
+		padding: 1.5rem;
+		background-color: $color-white;
+		border-radius: 50%;
+		color: $color-blue;
+	}
+}
+
+.right__container{
+	position: absolute;
+	bottom: 4rem;
+	width: 15%;
+	right:	0;
+	text-align: center;
+
+	&--line1 p{
+		font-size: 2.9rem;
+		font-weight: 500;
+		text-transform: uppercase;
+		color: $color-yellow;
+	}
+
+	&--line2 p{
+		font-size: 2.7rem;
+		font-weight: 400;
+		text-transform: uppercase;
+		color: $color-white;
+	}
+}

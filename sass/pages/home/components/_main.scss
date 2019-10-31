@@ -1,0 +1,21 @@
+.main{
+  background-color: rgba($color-blue, 1);
+  //backdrop-filter: blur(2rem);  
+  height: 100%;
+
+  
+  &__card{
+    width: 70%;
+    background-color: rgba($color-white, 1);
+    height: 200vh;
+    margin: 0 auto;
+    border-radius: 2rem;
+    box-shadow: 0 .4rem 1rem rgba($color-black,.9);
+    padding: 1rem;
+    transform: translateY(-26rem);
+    position: relative;
+    animation-name: come-up;
+    animation-duration: .89s;  
+  }
+
+}

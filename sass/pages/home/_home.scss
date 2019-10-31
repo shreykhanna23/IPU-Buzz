@@ -1,0 +1,27 @@
+@import "components/header";
+@import "components/main";
+@import "components/carousel";
+
+body{
+  background-image: linear-gradient(
+      to right, 
+      rgba($color-yellow, .3),
+      rgba($color-red, .3)),
+    url("../img/background.jpg");
+  // background-image: url("../img/background.png");
+	box-sizing: border-box;
+  height: auto;
+  background-position: center;
+	background-attachment: fixed;
+  background-size: cover;
+  animation: zoom-out 1.3s;
+}
+
+.parallax-bg{
+  background-position-y: 0px;
+}
+
+h3{
+	margin-top: 	2%;
+	font-size: 	4rem;
+}

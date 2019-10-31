@@ -1,0 +1,15 @@
+{
+  "name": "ipubuzz",
+  "version": "1.0.0",
+  "description": "ipubuzz blog website",
+  "main": "index.js",
+  "scripts": {
+    "compile-sass": "node-sass sass/main.scss css/style.css -w"
+  },
+  "author": "Ansh Bhatia",
+  "license": "ISC",
+  "devDependencies": {
+    "jquery": "^3.4.1",
+    "node-sass": "^4.12.0"
+  }
+}
